@@ -1,18 +1,15 @@
 package stepDefinition;
 
 
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import library.Browsers;
 import utility.BaseUtil;
 
 public class Hook extends BaseUtil{
-	
-	
 	Browsers browser;
+	
+	
 	private BaseUtil base;
 	public Hook(BaseUtil base) {
 		this.base=base;
