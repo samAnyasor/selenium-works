@@ -34,7 +34,6 @@ public class OrangeTestClass {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(2000);
 		String header = driver.findElement(By.cssSelector(".oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module")).getText();
-//		Assert.assertTrue(());
 		System.out.println("Page Title is:"+ header);
 	}
 
